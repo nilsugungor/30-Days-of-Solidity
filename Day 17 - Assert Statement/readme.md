@@ -76,7 +76,7 @@ as sum = 78 + 84 = 162 is less than or equal to 255.
 when we pass input as 198 and 84 and then run the checkAssert function we get the output as
 
 ```solidity
-0 : string: No Overflow
+0 : string: Overflow exist
 ```
 
 as sum = 198 + 84 = 282 is greater than 255.
