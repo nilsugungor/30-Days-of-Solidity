@@ -81,6 +81,7 @@ when we pass input as 198 and 84 and then run the checkAssert function we get th
 
 as sum = 198 + 84 = 282 is greater than 255.
 
+> **Note:** The `assert` statement reverts the state. For the second output to be "Overflow exist", the `result` variable must be in its initial `false` state (i.e., `assertStatement` has not been successfully called before).
 ---
 
 [<< Day 16](../Day%2016%20-%20Require%20Statement/readme.md) | [Day 18 >>](../Day%2018%20-%20Revert%20Statement/readme.md)
